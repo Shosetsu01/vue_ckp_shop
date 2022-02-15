@@ -1,0 +1,122 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 20px !important;
+}
+
+button {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: inherit;
+    text-align: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 0;
+}
+
+.vsa-item {
+    width: 85%;
+    margin-right: 3rem;
+}
+
+.vsa-item__heading .vsa-item__trigger .vsa-item__trigger__content {
+    display: block;
+    background: none;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #1d3687;
+}
+
+.vsa-item__content {
+    margin-top: 2rem;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: start;
+    color: #1d3687;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 2rem 0;
+    color: #1d3687;
+}
+
+.basket__counter,
+.card__count {
+    display: block;
+    margin-right: 1rem;
+
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 1.5rem;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2.4rem;
+}
+
+.v-text-field .v-label--active {
+    transform-origin: top left;
+}
+
+.v-text-field {
+    padding-top: 16px !important;
+}
+
+.v-textarea textarea {
+    margin-top: 1rem;
+}
+
+.v-btn {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: #1976D2 !important;
+    color: white !important;
+}
+
+.agree__fiz {
+    margin-left: 1.5rem;
+}
+
+.agree__fiz a {
+    color: #1976D2 !important;
+    text-decoration: underline !important;
+}
+
+.v-messages__message {
+    color: red !important;
+}
